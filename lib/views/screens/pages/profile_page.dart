@@ -49,7 +49,7 @@ class _ProfilePageState extends State<ProfilePage> {
             lastName = userData["lastname"];
             phoneNumber = userData["phone_number"];
 
-            ProfilePage.fullname = "${name} ${lastName}";
+            ProfilePage.fullname = "$name $lastName";
           }
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 30),

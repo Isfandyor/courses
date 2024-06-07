@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:practice_home/models/lesson.dart';
-import 'package:practice_home/views/screens/pages/home/screens_in.dart/quiz.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class LessonDetail extends StatefulWidget {
-  LessonDetail({super.key});
+  const LessonDetail({super.key});
 
   @override
   State<LessonDetail> createState() => _LessonDetailState();

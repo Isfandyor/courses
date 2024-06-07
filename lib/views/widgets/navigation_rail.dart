@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:practice_home/providers/index_provider.dart';
 import 'package:provider/provider.dart';
@@ -20,9 +21,9 @@ class MyNavigationRail extends StatelessWidget {
             ),
             NavigationRailDestination(
               icon: Icon(
-                Icons.stacked_line_chart_rounded,
+                Icons.note_alt_outlined,
               ),
-              label: Text("Results"),
+              label: Text("Note"),
             ),
             NavigationRailDestination(
               icon: Icon(Icons.person),

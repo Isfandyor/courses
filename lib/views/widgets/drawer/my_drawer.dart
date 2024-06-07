@@ -3,8 +3,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:practice_home/views/screens/pages/profile_page.dart';
-import 'package:practice_home/views/widgets/drawer/screens/edit_courses.dart';
-import 'package:practice_home/views/widgets/drawer/screens/settings.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class MyDrawer extends StatelessWidget {

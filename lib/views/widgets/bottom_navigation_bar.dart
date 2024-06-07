@@ -24,9 +24,9 @@ class MyBottomNavigationBar extends StatelessWidget {
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            Icons.stacked_line_chart_rounded,
+            Icons.note_alt_outlined,
           ),
-          label: "Results",
+          label: "Notes",
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.person),

@@ -6,7 +6,7 @@ import 'package:practice_home/models/quiz.dart';
 class QuizGame extends StatefulWidget {
   // List<Quiz> quizzes;
 
-  QuizGame({super.key});
+  const QuizGame({super.key});
 
   @override
   State<QuizGame> createState() => _QuizGameState();

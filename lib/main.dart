@@ -38,8 +38,8 @@ class MyApp extends StatelessWidget {
         'course_detail': (ctx) => const CourseDetail(),
         'edit_course': (ctx) => const EditCourses(),
         'settings': (ctx) => const Settings(),
-        'lesson_detail': (ctx) => LessonDetail(),
-        'quiz_game': (ctx) => QuizGame(),
+        'lesson_detail': (ctx) => const LessonDetail(),
+        'quiz_game': (ctx) => const QuizGame(),
       },
     );
   }
