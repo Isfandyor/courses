@@ -1,24 +1,24 @@
-com.example.practice_home.app-core-1.8.0-0 C:\Users\hello\.gradle\caches\transforms-3\088019f8f0f0feed3fb341fea24f5f85\transformed\core-1.8.0\res
-com.example.practice_home.app-jetified-startup-runtime-1.1.1-1 C:\Users\hello\.gradle\caches\transforms-3\09da5cae147f3dc3c3aef8a228482606\transformed\jetified-startup-runtime-1.1.1\res
-com.example.practice_home.app-appcompat-1.5.1-2 C:\Users\hello\.gradle\caches\transforms-3\170bab52fa5d12bf303de1d7f3b1d2d8\transformed\appcompat-1.5.1\res
-com.example.practice_home.app-jetified-emoji2-views-helper-1.2.0-3 C:\Users\hello\.gradle\caches\transforms-3\251d983fe0aad067362516aaf01a1624\transformed\jetified-emoji2-views-helper-1.2.0\res
-com.example.practice_home.app-fragment-1.3.6-4 C:\Users\hello\.gradle\caches\transforms-3\339c2ed669fd73e9fa70dbb011c5e218\transformed\fragment-1.3.6\res
-com.example.practice_home.app-jetified-window-1.0.0-beta04-5 C:\Users\hello\.gradle\caches\transforms-3\3fc6841a625c2f6f798513da4342f64b\transformed\jetified-window-1.0.0-beta04\res
-com.example.practice_home.app-lifecycle-livedata-core-2.5.1-6 C:\Users\hello\.gradle\caches\transforms-3\49950d7c0e28d8a99a29adaf07fea208\transformed\lifecycle-livedata-core-2.5.1\res
-com.example.practice_home.app-swiperefreshlayout-1.1.0-7 C:\Users\hello\.gradle\caches\transforms-3\59288dc7447cd6752982b195167c6312\transformed\swiperefreshlayout-1.1.0\res
-com.example.practice_home.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-8 C:\Users\hello\.gradle\caches\transforms-3\59e1ef08ad5ba465fbf0a58f47e82b98\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
-com.example.practice_home.app-jetified-window-java-1.0.0-beta04-9 C:\Users\hello\.gradle\caches\transforms-3\5b1943f6022f031876b1bcc4cd6f58e6\transformed\jetified-window-java-1.0.0-beta04\res
-com.example.practice_home.app-jetified-core-ktx-1.8.0-10 C:\Users\hello\.gradle\caches\transforms-3\699ddd771aafa8595d930f5cee25fb61\transformed\jetified-core-ktx-1.8.0\res
-com.example.practice_home.app-jetified-emoji2-1.2.0-11 C:\Users\hello\.gradle\caches\transforms-3\6da6de6df61c02165e5ab536d982ef73\transformed\jetified-emoji2-1.2.0\res
-com.example.practice_home.app-jetified-activity-1.5.1-12 C:\Users\hello\.gradle\caches\transforms-3\7551d2ce5d105bb9dbc45d153e82c3da\transformed\jetified-activity-1.5.1\res
-com.example.practice_home.app-browser-1.4.0-13 C:\Users\hello\.gradle\caches\transforms-3\8aa1f0067e80e2cb791e630d42e72984\transformed\browser-1.4.0\res
-com.example.practice_home.app-lifecycle-viewmodel-2.5.1-14 C:\Users\hello\.gradle\caches\transforms-3\8c3969a341d57def801b36e37f0ee360\transformed\lifecycle-viewmodel-2.5.1\res
-com.example.practice_home.app-lifecycle-runtime-2.5.1-15 C:\Users\hello\.gradle\caches\transforms-3\a886f70783c7326efabcdfbf39c9524b\transformed\lifecycle-runtime-2.5.1\res
-com.example.practice_home.app-jetified-appcompat-resources-1.5.1-16 C:\Users\hello\.gradle\caches\transforms-3\b9d1b4e0d8115cd1582b7da97adfa079\transformed\jetified-appcompat-resources-1.5.1\res
-com.example.practice_home.app-jetified-lifecycle-process-2.4.1-17 C:\Users\hello\.gradle\caches\transforms-3\bc44c4785222c9d5f4e92938f56560e5\transformed\jetified-lifecycle-process-2.4.1\res
-com.example.practice_home.app-jetified-savedstate-1.2.0-18 C:\Users\hello\.gradle\caches\transforms-3\dc84f97fef8b278ab3fe97b8f89b9b05\transformed\jetified-savedstate-1.2.0\res
-com.example.practice_home.app-webkit-1.5.0-19 C:\Users\hello\.gradle\caches\transforms-3\e85bfc0be42349986da7ab386ed9635c\transformed\webkit-1.5.0\res
-com.example.practice_home.app-jetified-annotation-experimental-1.1.0-20 C:\Users\hello\.gradle\caches\transforms-3\f3b777a6e3202e8f617aa95a18bb10d0\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.practice_home.app-jetified-appcompat-resources-1.5.1-0 C:\Users\hello\.gradle\caches\transforms-3\0e6b42b379dde118a4082d2b3c5cfb6e\transformed\jetified-appcompat-resources-1.5.1\res
+com.example.practice_home.app-jetified-startup-runtime-1.1.1-1 C:\Users\hello\.gradle\caches\transforms-3\0ead0d874c7209308cb13cbd2a8689e1\transformed\jetified-startup-runtime-1.1.1\res
+com.example.practice_home.app-jetified-annotation-experimental-1.1.0-2 C:\Users\hello\.gradle\caches\transforms-3\1430f0ba200dad8539fe63c1c6609227\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.practice_home.app-jetified-savedstate-1.2.0-3 C:\Users\hello\.gradle\caches\transforms-3\31eb3435cb178b0f318519349391b961\transformed\jetified-savedstate-1.2.0\res
+com.example.practice_home.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-4 C:\Users\hello\.gradle\caches\transforms-3\34a9955a267b36e0d48d36297f773758\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.practice_home.app-jetified-emoji2-1.2.0-5 C:\Users\hello\.gradle\caches\transforms-3\3ed226bc3c45993a3a325dc6934468af\transformed\jetified-emoji2-1.2.0\res
+com.example.practice_home.app-lifecycle-viewmodel-2.5.1-6 C:\Users\hello\.gradle\caches\transforms-3\3ef15b1c7a7be57301f87de42e2d7a0e\transformed\lifecycle-viewmodel-2.5.1\res
+com.example.practice_home.app-fragment-1.3.6-7 C:\Users\hello\.gradle\caches\transforms-3\4aaed2a9a422a328d4093aec3fb593b3\transformed\fragment-1.3.6\res
+com.example.practice_home.app-jetified-window-java-1.0.0-beta04-8 C:\Users\hello\.gradle\caches\transforms-3\5077c21c9fa644ae38cb776e399be57b\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.practice_home.app-core-1.8.0-9 C:\Users\hello\.gradle\caches\transforms-3\5c90bb52435b5128c085cab7c3798d7f\transformed\core-1.8.0\res
+com.example.practice_home.app-swiperefreshlayout-1.1.0-10 C:\Users\hello\.gradle\caches\transforms-3\5e477b04197b6196164b397224359d94\transformed\swiperefreshlayout-1.1.0\res
+com.example.practice_home.app-jetified-window-1.0.0-beta04-11 C:\Users\hello\.gradle\caches\transforms-3\77ca3427fe6b75309d22eba1558e2c8f\transformed\jetified-window-1.0.0-beta04\res
+com.example.practice_home.app-jetified-core-ktx-1.8.0-12 C:\Users\hello\.gradle\caches\transforms-3\835b30d98bb7149f281b7ea19d818196\transformed\jetified-core-ktx-1.8.0\res
+com.example.practice_home.app-jetified-activity-1.5.1-13 C:\Users\hello\.gradle\caches\transforms-3\a58e544c7f8b19ebb65b286ae663eefa\transformed\jetified-activity-1.5.1\res
+com.example.practice_home.app-browser-1.4.0-14 C:\Users\hello\.gradle\caches\transforms-3\aacdcfb0a89f321d7c1cc46fc0d65eec\transformed\browser-1.4.0\res
+com.example.practice_home.app-lifecycle-runtime-2.5.1-15 C:\Users\hello\.gradle\caches\transforms-3\d0afc29db5dbf08d8e82a72e818865bd\transformed\lifecycle-runtime-2.5.1\res
+com.example.practice_home.app-jetified-emoji2-views-helper-1.2.0-16 C:\Users\hello\.gradle\caches\transforms-3\d5d3e2c2dd5eee7d1e896adbf17300d2\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.practice_home.app-lifecycle-livedata-core-2.5.1-17 C:\Users\hello\.gradle\caches\transforms-3\db45ff76c3b46b18b859b57b722a1e72\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.practice_home.app-webkit-1.5.0-18 C:\Users\hello\.gradle\caches\transforms-3\f001399ecc0d2325205455fda08cb7a6\transformed\webkit-1.5.0\res
+com.example.practice_home.app-jetified-lifecycle-process-2.4.1-19 C:\Users\hello\.gradle\caches\transforms-3\f376520daa15553c7a063b752da194c0\transformed\jetified-lifecycle-process-2.4.1\res
+com.example.practice_home.app-appcompat-1.5.1-20 C:\Users\hello\.gradle\caches\transforms-3\f8426651e07af01c1dc064c10f604651\transformed\appcompat-1.5.1\res
 com.example.practice_home.app-debug-21 C:\Users\hello\OneDrive\Documents\My files\Home Works\Uy ishi 19\courses\android\app\src\debug\res
 com.example.practice_home.app-main-22 C:\Users\hello\OneDrive\Documents\My files\Home Works\Uy ishi 19\courses\android\app\src\main\res
 com.example.practice_home.app-pngs-23 C:\Users\hello\OneDrive\Documents\My files\Home Works\Uy ishi 19\courses\build\app\generated\res\pngs\debug

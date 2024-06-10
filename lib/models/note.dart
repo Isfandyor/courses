@@ -10,7 +10,7 @@ class Note {
   factory Note.fromJson(Map<String, dynamic> json) {
     return Note(
       id: json['id'],
-      title: json['title'] ?? '', // Provide a default value if null
+      title: json['title'] ?? '',
     );
   }
 

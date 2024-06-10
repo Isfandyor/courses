@@ -6,6 +6,8 @@ import 'package:practice_home/views/screens/home_screen.dart';
 import 'package:practice_home/views/screens/pages/home/screens_in.dart/course_detail.dart';
 import 'package:practice_home/views/screens/pages/home/screens_in.dart/lesson_detail.dart';
 import 'package:practice_home/views/screens/pages/home/screens_in.dart/quiz.dart';
+import 'package:practice_home/views/screens/pages/introduction/login_screens/login/screens/login_page.dart';
+import 'package:practice_home/views/screens/pages/introduction/start_screen.dart';
 import 'package:practice_home/views/widgets/drawer/screens/edit_courses.dart';
 import 'package:practice_home/views/widgets/drawer/screens/settings.dart';
 import 'package:provider/provider.dart';
@@ -30,10 +32,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: Provider.of<ThemeProvider>(context).themeData,
+      // theme: Provider.of<ThemeProvider>(context).themeData,
+      themeMode: ThemeMode.dark,
+      theme: ThemeData.dark(),
+
       debugShowCheckedModeBanner: false,
-      initialRoute: 'home',
+      initialRoute: 'start_screen',
       routes: {
+        'start_screen': (ctx) => const StartScreen(),
+        'login': (ctx) => LoginPage(),
         "home": (ctx) => const HomeScreen(),
         'course_detail': (ctx) => const CourseDetail(),
         'edit_course': (ctx) => const EditCourses(),

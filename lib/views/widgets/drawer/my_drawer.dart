@@ -56,6 +56,19 @@ class MyDrawer extends StatelessWidget {
               title: const Text("Settings"),
               leading: const Icon(Icons.settings),
             ),
+            ListTile(
+              onTap: () {
+                Navigator.pushNamed(context, 'login');
+              },
+              title: Text(
+                "logout",
+                style: TextStyle(color: Colors.orange[500]),
+              ),
+              leading: Icon(
+                Icons.logout,
+                color: Colors.orange[500],
+              ),
+            ),
           ],
         ),
       ),

@@ -132,6 +132,7 @@ class _NotesPageState extends State<NotesPage> {
                 builder: (ctx) => const AddAlertDialog(),
               );
               if (data != null) {
+                print('Bu data: $data');
                 notesController.addNotes(
                   title: data['title'],
                 );

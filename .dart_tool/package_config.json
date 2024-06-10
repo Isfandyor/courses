@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/_fe_analyzer_shared-68.0.0",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/_fe_analyzer_shared-70.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -15,7 +15,7 @@
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-6.5.0",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-6.5.2",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -291,7 +291,7 @@
     },
     {
       "name": "macros",
-      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/macros-0.1.0-main.5",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/macros-0.1.2-main.0",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -309,7 +309,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.14.0",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.15.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -344,6 +344,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "path_parsing",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/path_parsing-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "path_provider_linux",
       "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_linux-2.2.1",
       "packageUri": "lib/",
@@ -360,6 +366,12 @@
       "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_windows-2.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/petitparser-6.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "platform",
@@ -512,6 +524,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "svg_flutter",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/svg_flutter-0.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "synchronized",
       "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/synchronized-3.1.0+1",
       "packageUri": "lib/",
@@ -525,9 +543,9 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.7.1",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.7.2",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "timing",
@@ -542,6 +560,24 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "vector_graphics",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics-1.1.11+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "vector_graphics_codec",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_codec-1.1.11+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "vector_graphics_compiler",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_compiler-1.1.11+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
@@ -549,7 +585,7 @@
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-14.2.2",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-14.2.3",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -590,6 +626,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "xml",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "yaml",
       "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/yaml-3.1.2",
       "packageUri": "lib/",
@@ -608,10 +650,10 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-06-07T12:37:04.040785Z",
+  "generated": "2024-06-10T16:29:55.568919Z",
   "generator": "pub",
-  "generatorVersion": "3.5.0-172.0.dev",
+  "generatorVersion": "3.5.0-236.0.dev",
   "flutterRoot": "file:///C:/Users/hello/flutter",
-  "flutterVersion": "3.22.0-39.0.pre.1",
+  "flutterVersion": "3.23.0-13.0.pre.168",
   "pubCache": "file:///C:/Users/hello/AppData/Local/Pub/Cache"
 }

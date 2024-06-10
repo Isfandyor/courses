@@ -10,7 +10,7 @@ class AddAlertDialog extends StatefulWidget {
 class _AddAlertDialogState extends State<AddAlertDialog> {
   final formKey = GlobalKey<FormState>();
 
-  String? text;
+  String? title;
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +40,7 @@ class _AddAlertDialogState extends State<AddAlertDialog> {
                 return null;
               },
               onSaved: (newValue) {
-                text = newValue;
+                title = newValue;
               },
               decoration: const InputDecoration(
                 label: Text(
@@ -69,7 +69,7 @@ class _AddAlertDialogState extends State<AddAlertDialog> {
               Navigator.pop(
                 context,
                 {
-                  "text": text!,
+                  "title": title!,
                 },
               );
             }
