@@ -92,13 +92,9 @@ class _LoginPageState extends State<LoginPage> {
         await _authHttpServices.login(
             usernameController.text, passwordController.text);
         // Navigator.pop(context);
-        Navigator.pushReplacement(
+        Navigator.pushReplacementNamed(
           context,
-          MaterialPageRoute(
-            builder: (ctx) {
-              return const HomeScreen();
-            },
-          ),
+          'home',
         );
       } catch (e) {
         Navigator.pop(context);
@@ -134,7 +130,7 @@ class _LoginPageState extends State<LoginPage> {
           padding: const EdgeInsets.only(top: 57, left: 26),
           child: IconButton(
             onPressed: () {
-              Navigator.pop(context);
+              Navigator.pushReplacementNamed(context, 'start_screen');
             },
             icon: SvgPicture.asset('assets/icons/back.svg'),
           ),

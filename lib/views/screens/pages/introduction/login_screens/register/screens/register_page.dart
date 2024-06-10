@@ -90,6 +90,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
         Navigator.pushReplacementNamed(context, 'home');
       } catch (e) {
+        Navigator.pop(context);
         String message = e.toString();
         if (e.toString().contains("EMAIL_EXISTS")) {
           message = "Email mavjud";
@@ -108,7 +109,6 @@ class _RegisterPageState extends State<RegisterPage> {
           isLoading = false;
         });
       }
-      Navigator.pop(context);
     }
   }
 

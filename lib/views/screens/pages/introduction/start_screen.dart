@@ -8,25 +8,25 @@ class StartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        toolbarHeight: 90,
-        leadingWidth: 50,
-        // leading: Padding(
-        //   padding: const EdgeInsets.only(top: 57, left: 24),
-        //   child: IconButton(
-        //     onPressed: () {
-        //       Navigator.pop(context);
-        //     },
-        //     icon: SvgPicture.asset('assets/icons/back.svg'),
-        //   ),
-        // ),
-      ),
+      // appBar: AppBar(
+      //   toolbarHeight: 90,
+      //   leadingWidth: 50,
+      // leading: Padding(
+      //   padding: const EdgeInsets.only(top: 57, left: 24),
+      //   child: IconButton(
+      //     onPressed: () {
+      //       Navigator.pop(context);
+      //     },
+      //     icon: SvgPicture.asset('assets/icons/back.svg'),
+      //   ),
+      // ),
+      // ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           const Column(
             children: [
-              SizedBox(height: 20),
+              SizedBox(height: 90),
               Text(
                 'Welcome to UpTodo',
                 style: TextStyle(
