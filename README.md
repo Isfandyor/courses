@@ -18,3 +18,9 @@ https://github.com/Isfandyor/courses/assets/156054720/834b1fd0-2756-4cae-8dcc-d8
 
 https://github.com/Isfandyor/courses/assets/156054720/09c2aa03-a4e4-413b-91b9-4feffc33ed24
 
+
+
+# home work 55 added Favorites and Cart pages, watch the video for full details:
+
+[2024-06-11 21-38-00.zip](https://github.com/user-attachments/files/15792347/2024-06-11.21-38-00.zip)
+
