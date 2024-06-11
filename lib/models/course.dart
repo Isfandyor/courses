@@ -10,6 +10,8 @@ class Course {
   double price;
   String imageUrl;
   String description;
+  bool isFavorite;
+  bool isInCart;
   List<Lesson> lessons;
 
   Course({
@@ -18,6 +20,8 @@ class Course {
     required this.price,
     required this.imageUrl,
     required this.description,
+    required this.isFavorite,
+    required this.isInCart,
     required this.lessons,
   });
   factory Course.fromJson(Map<String, dynamic> json) {

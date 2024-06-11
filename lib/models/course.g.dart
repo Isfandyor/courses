@@ -12,6 +12,8 @@ Course _$CourseFromJson(Map<String, dynamic> json) => Course(
       price: (json['price'] as num).toDouble(),
       imageUrl: json['imageUrl'] as String,
       description: json['description'] as String,
+      isFavorite: json['isFavorite'],
+      isInCart: json['isInCart'],
       lessons: (json['lessons'] as List<dynamic>)
           .map((e) => Lesson.fromJson(e as Map<String, dynamic>))
           .toList(),
@@ -24,4 +26,6 @@ Map<String, dynamic> _$CourseToJson(Course instance) => <String, dynamic>{
       'imageUrl': instance.imageUrl,
       'description': instance.description,
       'lessons': instance.lessons,
+      'isFavorite': instance.isFavorite,
+      'isInCart': instance.isInCart,
     };

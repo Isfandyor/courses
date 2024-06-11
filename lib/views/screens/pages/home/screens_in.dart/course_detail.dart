@@ -1,9 +1,29 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:practice_home/controllers/courses_controller.dart';
 import 'package:practice_home/models/course.dart';
+import 'package:provider/provider.dart';
 
-class CourseDetail extends StatelessWidget {
-  // final Course course;
-  const CourseDetail({super.key});
+class CourseDetail extends StatefulWidget {
+  CourseDetail({super.key});
+
+  @override
+  State<CourseDetail> createState() => _CourseDetailState();
+}
+
+class _CourseDetailState extends State<CourseDetail> {
+  // bool isLoading = false;
+
+  // void updateFavoCart() async {
+  //   await Provider.of<CoursesController>(context)
+  //       .fetchCoursesFavoriteAndInCart();
+  // }
+
+  // @override
+  // void initState() {
+  //   super.initState();
+  //   updateFavoCart();
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -11,6 +31,38 @@ class CourseDetail extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Course detail"),
+        actions: [
+          IconButton(
+            onPressed: () {
+              Provider.of<CoursesController>(context, listen: false)
+                  .setFavorite(course);
+            },
+            icon: (course.isFavorite)
+                ? const Icon(
+                    Icons.favorite,
+                    color: Colors.red,
+                  )
+                : const Icon(
+                    Icons.favorite_border,
+                    color: Color.fromARGB(255, 189, 7, 255),
+                  ),
+          ),
+          IconButton(
+            onPressed: () {
+              Provider.of<CoursesController>(context, listen: false)
+                  .setCart(course);
+            },
+            icon: course.isInCart
+                ? const Icon(
+                    CupertinoIcons.cart_badge_minus,
+                    color: Colors.red,
+                  )
+                : const Icon(
+                    CupertinoIcons.cart_badge_plus,
+                    color: Color.fromARGB(255, 189, 7, 255),
+                  ),
+          )
+        ],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -21,6 +73,7 @@ class CourseDetail extends StatelessWidget {
               children: [
                 Container(
                   height: 230,
+                  width: 400,
                   clipBehavior: Clip.hardEdge,
                   margin: const EdgeInsets.all(20),
                   decoration:

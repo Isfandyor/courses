@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:practice_home/providers/index_provider.dart';
 import 'package:practice_home/theme/theme_provider.dart';
@@ -21,6 +22,14 @@ class MyBottomNavigationBar extends StatelessWidget {
         BottomNavigationBarItem(
           icon: Icon(Icons.home),
           label: "Home",
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.favorite),
+          label: "Favorites",
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(CupertinoIcons.cart),
+          label: "Cart",
         ),
         BottomNavigationBarItem(
           icon: Icon(

@@ -2,6 +2,9 @@ C:/Users/hello/OneDrive/Documents/My files/Home Works/Uy ishi 19/courses/build/w
 C:/Users/hello/OneDrive/Documents/My files/Home Works/Uy ishi 19/courses/build/windows/x64/runner/Debug/flutter_windows.dll
 C:/Users/hello/OneDrive/Documents/My files/Home Works/Uy ishi 19/courses/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
 C:/Users/hello/OneDrive/Documents/My files/Home Works/Uy ishi 19/courses/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/Users/hello/OneDrive/Documents/My files/Home Works/Uy ishi 19/courses/build/windows/x64/runner/Debug/data/flutter_assets/assets/icons/apple.svg
+C:/Users/hello/OneDrive/Documents/My files/Home Works/Uy ishi 19/courses/build/windows/x64/runner/Debug/data/flutter_assets/assets/icons/back.svg
+C:/Users/hello/OneDrive/Documents/My files/Home Works/Uy ishi 19/courses/build/windows/x64/runner/Debug/data/flutter_assets/assets/icons/google.svg
 C:/Users/hello/OneDrive/Documents/My files/Home Works/Uy ishi 19/courses/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
 C:/Users/hello/OneDrive/Documents/My files/Home Works/Uy ishi 19/courses/build/windows/x64/runner/Debug/data/flutter_assets/fonts/Agbalumo-Regular.ttf
 C:/Users/hello/OneDrive/Documents/My files/Home Works/Uy ishi 19/courses/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf

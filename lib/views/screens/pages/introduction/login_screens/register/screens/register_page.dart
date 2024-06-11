@@ -1,7 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:practice_home/services/auth_http_services.dart';
-import 'package:practice_home/views/screens/home_screen.dart';
 import 'package:practice_home/views/screens/pages/introduction/login_screens/register/widgets/my_text_filed_reg.dart';
 import 'package:practice_home/views/screens/pages/introduction/login_screens/register/widgets/register_with_btn.dart';
 import 'package:svg_flutter/svg.dart';

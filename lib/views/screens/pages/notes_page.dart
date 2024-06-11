@@ -69,12 +69,10 @@ class _NotesPageState extends State<NotesPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[200],
       appBar: AppBar(
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(80.0),
           child: Container(
-            color: Colors.grey[200],
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextField(
@@ -85,7 +83,7 @@ class _NotesPageState extends State<NotesPage> {
                 decoration: InputDecoration(
                   contentPadding:
                       const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                  fillColor: Colors.grey[300],
+                  // fillColor: Colors.grey[300],
                   filled: true,
                   prefixIcon: Icon(
                     CupertinoIcons.search,
@@ -115,7 +113,7 @@ class _NotesPageState extends State<NotesPage> {
           ),
         ),
         toolbarHeight: 70,
-        backgroundColor: Colors.grey[200],
+        // backgroundColor: Colors.grey[200],
         title: const Text(
           "Notes",
           style: TextStyle(

@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:practice_home/providers/index_provider.dart';
 import 'package:provider/provider.dart';
@@ -17,6 +18,14 @@ class MyNavigationRail extends StatelessWidget {
             NavigationRailDestination(
               icon: Icon(Icons.home),
               label: Text("Home"),
+            ),
+            NavigationRailDestination(
+              icon: Icon(Icons.favorite),
+              label: Text("Favorites"),
+            ),
+            NavigationRailDestination(
+              icon: Icon(CupertinoIcons.cart),
+              label: Text("Cart"),
             ),
             NavigationRailDestination(
               icon: Icon(

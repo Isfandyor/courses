@@ -13,8 +13,8 @@ class ListViewCourses extends StatelessWidget {
         Navigator.pushNamed(context, 'course_detail', arguments: course);
       },
       child: Container(
-        height: 100,
-        margin: const EdgeInsets.all(10),
+        height: 120,
+        margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
         padding: const EdgeInsets.all(15),
         decoration: BoxDecoration(
           color: Colors.blueGrey,

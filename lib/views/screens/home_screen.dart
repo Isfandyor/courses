@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:practice_home/providers/index_provider.dart';
+import 'package:practice_home/views/screens/pages/home/cart_page.dart';
+import 'package:practice_home/views/screens/pages/home/favorite_page.dart';
 import 'package:practice_home/views/screens/pages/notes_page.dart';
 import 'package:practice_home/views/screens/pages/home/home_page.dart';
 import 'package:practice_home/views/screens/pages/profile_page.dart';
@@ -23,6 +25,8 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     pages = [
       const HomePage(),
+      const FavoritePage(),
+      const CartPage(),
       const NotesPage(),
       const ProfilePage(),
     ];

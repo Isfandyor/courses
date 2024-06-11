@@ -1,7 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:practice_home/services/auth_http_services.dart';
-import 'package:practice_home/views/screens/home_screen.dart';
 import 'package:practice_home/views/screens/pages/introduction/login_screens/login/widgets/login_with_btn.dart';
 import 'package:practice_home/views/screens/pages/introduction/login_screens/login/widgets/my_text_filed.dart';
 import 'package:practice_home/views/screens/pages/introduction/login_screens/register/screens/register_page.dart';
@@ -83,7 +82,7 @@ class _LoginPageState extends State<LoginPage> {
       showDialog(
         context: context,
         builder: (ctx) {
-          return Center(
+          return const Center(
             child: CircularProgressIndicator(),
           );
         },

@@ -85,11 +85,11 @@ class _HomePageState extends State<HomePage> {
                       crossAxisSpacing: 10,
                       mainAxisSpacing: 10,
                       crossAxisCount: 2,
-                      childAspectRatio: 1 / 1.1,
+                      childAspectRatio: 1 / 1.2,
                     ),
                     itemBuilder: (context, index) {
                       return GridViewCourses(
-                        index: index,
+                        course: courses[index],
                       );
                     },
                   ),

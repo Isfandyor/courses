@@ -1,32 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:practice_home/controllers/courses_controller.dart';
+import 'package:practice_home/models/course.dart';
 import 'package:provider/provider.dart';
 
 class GridViewCourses extends StatelessWidget {
-  int index;
-  GridViewCourses({super.key, required this.index});
+  Course course;
+  GridViewCourses({super.key, required this.course});
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.pushNamed(context, 'course_detail',
-            arguments: Provider.of<CoursesController>(context, listen: false)
-                .courses[index]);
+        Navigator.pushNamed(context, 'course_detail', arguments: course);
       },
       child: Container(
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.all(15),
         decoration: BoxDecoration(
             color: Colors.blueGrey, borderRadius: BorderRadius.circular(20)),
         child: Column(
           children: [
             Container(
               width: 180,
+              height: 120,
               clipBehavior: Clip.hardEdge,
               decoration:
                   BoxDecoration(borderRadius: BorderRadius.circular(10)),
               child: Image.network(
-                Provider.of<CoursesController>(context).courses[index].imageUrl,
+                course.imageUrl,
+                alignment: Alignment(0.5, 1),
                 fit: BoxFit.cover,
               ),
             ),
@@ -39,25 +40,21 @@ class GridViewCourses extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        Provider.of<CoursesController>(context)
-                            .courses[index]
-                            .title,
+                        course.title,
                         style: const TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 16),
+                            fontWeight: FontWeight.bold, fontSize: 17),
                       ),
                       Text(
-                        "\$${Provider.of<CoursesController>(context).courses[index].price}",
+                        "\$${course.price}",
                         style: const TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 16),
+                            fontWeight: FontWeight.bold, fontSize: 17),
                       ),
                     ],
                   ),
                   Text(
-                    Provider.of<CoursesController>(context)
-                        .courses[index]
-                        .description,
-                    maxLines: 1,
-                    style: const TextStyle(fontSize: 12),
+                    course.description,
+                    maxLines: 3,
+                    style: const TextStyle(fontSize: 13),
                     overflow: TextOverflow.ellipsis,
                   )
                 ],

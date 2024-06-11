@@ -32,17 +32,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // theme: Provider.of<ThemeProvider>(context).themeData,
-      themeMode: ThemeMode.dark,
-      theme: ThemeData.dark(),
+      theme: Provider.of<ThemeProvider>(context).themeData,
+      // themeMode: ThemeMode.dark,
+      // theme: ThemeData.dark(),
 
       debugShowCheckedModeBanner: false,
-      initialRoute: 'start_screen',
+      initialRoute: 'home',
       routes: {
         'start_screen': (ctx) => const StartScreen(),
-        'login': (ctx) => LoginPage(),
+        'login': (ctx) => const LoginPage(),
         "home": (ctx) => const HomeScreen(),
-        'course_detail': (ctx) => const CourseDetail(),
+        'course_detail': (ctx) => CourseDetail(),
         'edit_course': (ctx) => const EditCourses(),
         'settings': (ctx) => const Settings(),
         'lesson_detail': (ctx) => const LessonDetail(),
