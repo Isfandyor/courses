@@ -2,7 +2,7 @@ import 'package:practice_home/models/note.dart';
 import 'package:practice_home/services/local_database.dart';
 
 class NotesController {
-  LocalDatabase localDatabase = LocalDatabase();
+  LocalDatabase localDatabase = LocalDatabase.instance;
 
   List<Note> _notes = [];
 

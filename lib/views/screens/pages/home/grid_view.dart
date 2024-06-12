@@ -27,7 +27,7 @@ class GridViewCourses extends StatelessWidget {
                   BoxDecoration(borderRadius: BorderRadius.circular(10)),
               child: Image.network(
                 course.imageUrl,
-                alignment: Alignment(0.5, 1),
+                alignment: const Alignment(0.5, 1),
                 fit: BoxFit.cover,
               ),
             ),

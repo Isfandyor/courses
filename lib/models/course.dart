@@ -1,10 +1,11 @@
+import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:practice_home/models/lesson.dart';
 
 part 'course.g.dart';
 
 @JsonSerializable()
-class Course {
+class Course with ChangeNotifier {
   String id;
   String title;
   double price;
@@ -30,5 +31,10 @@ class Course {
 
   Map<String, dynamic> toJson() {
     return _$CourseToJson(this);
+  }
+
+  void toggleFavorite() {
+    isFavorite = !isFavorite;
+    notifyListeners();
   }
 }

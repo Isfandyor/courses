@@ -5,8 +5,8 @@ import 'package:practice_home/services/course_http_service.dart';
 class CoursesController extends ChangeNotifier {
   final _courseHttpService = CourseHttpService();
   List<Course> _courses = [];
-  List<Course> _favoriteCourses = [];
-  List<Course> _coursesInCart = [];
+  final List<Course> _favoriteCourses = [];
+  final List<Course> _coursesInCart = [];
 
   Future<void> fetchCourses() async {
     try {

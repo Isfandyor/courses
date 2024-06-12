@@ -500,6 +500,18 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "sqflite_common_ffi",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_common_ffi-2.3.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "sqlite3",
+      "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/sqlite3-2.4.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "stack_trace",
       "rootUri": "file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
@@ -650,7 +662,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-06-10T16:29:55.568919Z",
+  "generated": "2024-06-12T15:43:44.589176Z",
   "generator": "pub",
   "generatorVersion": "3.5.0-236.0.dev",
   "flutterRoot": "file:///C:/Users/hello/flutter",

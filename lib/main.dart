@@ -11,8 +11,15 @@ import 'package:practice_home/views/screens/pages/introduction/start_screen.dart
 import 'package:practice_home/views/widgets/drawer/screens/edit_courses.dart';
 import 'package:practice_home/views/widgets/drawer/screens/settings.dart';
 import 'package:provider/provider.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 void main(List<String> args) {
+  // Initialize FFI
+  sqfliteFfiInit();
+
+  // Change the default factory to FFI
+  databaseFactory = databaseFactoryFfi;
+
   runApp(
     MultiProvider(
       providers: [
@@ -42,7 +49,7 @@ class MyApp extends StatelessWidget {
         'start_screen': (ctx) => const StartScreen(),
         'login': (ctx) => const LoginPage(),
         "home": (ctx) => const HomeScreen(),
-        'course_detail': (ctx) => CourseDetail(),
+        'course_detail': (ctx) => const CourseDetail(),
         'edit_course': (ctx) => const EditCourses(),
         'settings': (ctx) => const Settings(),
         'lesson_detail': (ctx) => const LessonDetail(),

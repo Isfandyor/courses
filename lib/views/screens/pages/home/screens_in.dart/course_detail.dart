@@ -5,7 +5,7 @@ import 'package:practice_home/models/course.dart';
 import 'package:provider/provider.dart';
 
 class CourseDetail extends StatefulWidget {
-  CourseDetail({super.key});
+  const CourseDetail({super.key});
 
   @override
   State<CourseDetail> createState() => _CourseDetailState();
@@ -28,6 +28,7 @@ class _CourseDetailState extends State<CourseDetail> {
   @override
   Widget build(BuildContext context) {
     final Course course = ModalRoute.of(context)!.settings.arguments as Course;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text("Course detail"),
@@ -73,12 +74,15 @@ class _CourseDetailState extends State<CourseDetail> {
               children: [
                 Container(
                   height: 230,
-                  width: 400,
+                  width: 350,
                   clipBehavior: Clip.hardEdge,
                   margin: const EdgeInsets.all(20),
                   decoration:
                       BoxDecoration(borderRadius: BorderRadius.circular(20)),
-                  child: Image.network(course.imageUrl),
+                  child: Image.network(
+                    course.imageUrl,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ],
             ),

@@ -147,7 +147,7 @@ class _NotesPageState extends State<NotesPage> {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(child: CircularProgressIndicator());
           } else if (snapshot.hasError) {
-            return const Center(child: Text('An error occurred'));
+            return Center(child: Text('An error occurred: ${snapshot.error}'));
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
             return const Center(child: Text('No notes found'));
           } else {
