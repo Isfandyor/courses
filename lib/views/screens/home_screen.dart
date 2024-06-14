@@ -13,6 +13,7 @@ import 'package:practice_home/views/widgets/bottom_navigation_bar.dart';
 import 'package:practice_home/views/widgets/drawer/my_drawer.dart';
 import 'package:practice_home/views/widgets/navigation_rail.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -49,9 +50,9 @@ class _HomeScreenState extends State<HomeScreen> {
           widthScreen < 500 ? const MyBottomNavigationBar() : null,
       appBar: AppBar(
         centerTitle: true,
-        title: const Text(
-          "Todo",
-          style: TextStyle(
+        title: Text(
+          AppLocalizations.of(context)!.courses,
+          style: const TextStyle(
             fontFamily: "Agbalumo",
             color: Colors.white,
           ),
@@ -61,12 +62,14 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () async {
               await showSearch(
                 context: context,
-                delegate: SearchViewDelegate(courses =
-                    Provider.of<CoursesController>(context, listen: false)
-                        .courses),
+                delegate: SearchViewDelegate(
+                    courses =
+                        Provider.of<CoursesController>(context, listen: false)
+                            .courses,
+                    context),
               );
             },
-            icon: Icon(CupertinoIcons.search),
+            icon: const Icon(CupertinoIcons.search),
           )
         ],
       ),

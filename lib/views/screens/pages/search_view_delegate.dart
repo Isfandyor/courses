@@ -2,9 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:practice_home/models/course.dart';
 import 'package:practice_home/views/screens/pages/home/list_view.dart';
 
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 class SearchViewDelegate extends SearchDelegate<Course> {
   List<Course> courses;
-  SearchViewDelegate(this.courses);
+  late BuildContext context;
+  SearchViewDelegate(this.courses, context)
+      : super(searchFieldLabel: AppLocalizations.of(context)!.search);
 
   @override
   List<Widget> buildActions(BuildContext context) {

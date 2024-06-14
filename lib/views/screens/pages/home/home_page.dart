@@ -4,6 +4,7 @@ import 'package:practice_home/views/screens/pages/home/grid_view.dart';
 import 'package:practice_home/views/screens/pages/home/list_view.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -47,9 +48,9 @@ class _HomePageState extends State<HomePage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const Text(
-                "Courses",
-                style: TextStyle(
+              Text(
+                AppLocalizations.of(context)!.courses,
+                style: const TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),

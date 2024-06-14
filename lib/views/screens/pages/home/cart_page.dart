@@ -4,6 +4,7 @@ import 'package:practice_home/controllers/courses_controller.dart';
 import 'package:practice_home/theme/theme_provider.dart';
 import 'package:practice_home/views/screens/pages/home/list_view.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class CartPage extends StatefulWidget {
   const CartPage({super.key});
@@ -31,9 +32,9 @@ class _CartPageState extends State<CartPage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  const Text(
-                    "Total",
-                    style: TextStyle(
+                  Text(
+                    AppLocalizations.of(context)!.total,
+                    style: const TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.w300,
                     ),
@@ -62,7 +63,7 @@ class _CartPageState extends State<CartPage> {
                             color: Colors.green,
                             size: 70,
                           ),
-                          title: const Text("Operatisiya bajarildi!"),
+                          title: Text(AppLocalizations.of(context)!.completed),
                           actions: [
                             Column(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -93,14 +94,15 @@ class _CartPageState extends State<CartPage> {
                       },
                     );
                   },
-                  child: const Row(
+                  child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Address",
-                        style: TextStyle(color: Colors.white, fontSize: 20),
+                        AppLocalizations.of(context)!.address,
+                        style:
+                            const TextStyle(color: Colors.white, fontSize: 20),
                       ),
-                      Icon(
+                      const Icon(
                         Icons.navigate_next_rounded,
                         color: Colors.white,
                         size: 30,
@@ -122,16 +124,17 @@ class _CartPageState extends State<CartPage> {
                 child: Text("Snapshot error: ${snapshot.error}"),
               );
             } else if (snapshot.hasData) {
-              return const Center(
-                child: Text("Snapshot hasData error: Malumot topilmadi"),
+              return Center(
+                child: Text(
+                    "Snapshot hasData error: ${AppLocalizations.of(context)!.completed}"),
               );
             }
             final courses =
                 Provider.of<CoursesController>(context, listen: false)
                     .coursesInCart;
             if (courses.isEmpty) {
-              return const Center(
-                child: Text("Malumot yo'q"),
+              return Center(
+                child: Text(AppLocalizations.of(context)!.notfound),
               );
             }
             return Column(

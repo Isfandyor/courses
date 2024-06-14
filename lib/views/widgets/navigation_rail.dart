@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:practice_home/providers/index_provider.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class MyNavigationRail extends StatelessWidget {
   const MyNavigationRail({super.key});
@@ -14,28 +15,28 @@ class MyNavigationRail extends StatelessWidget {
           onDestinationSelected:
               Provider.of<IndexProvider>(context).selectedIndex,
           labelType: NavigationRailLabelType.selected,
-          destinations: const <NavigationRailDestination>[
+          destinations: <NavigationRailDestination>[
             NavigationRailDestination(
-              icon: Icon(Icons.home),
-              label: Text("Home"),
+              icon: const Icon(Icons.home),
+              label: Text(AppLocalizations.of(context)!.home),
             ),
             NavigationRailDestination(
-              icon: Icon(Icons.favorite),
-              label: Text("Favorites"),
+              icon: const Icon(Icons.favorite),
+              label: Text(AppLocalizations.of(context)!.favorites),
             ),
             NavigationRailDestination(
-              icon: Icon(CupertinoIcons.cart),
-              label: Text("Cart"),
+              icon: const Icon(CupertinoIcons.cart),
+              label: Text(AppLocalizations.of(context)!.cart),
             ),
             NavigationRailDestination(
-              icon: Icon(
+              icon: const Icon(
                 Icons.note_alt_outlined,
               ),
-              label: Text("Note"),
+              label: Text(AppLocalizations.of(context)!.notes),
             ),
             NavigationRailDestination(
-              icon: Icon(Icons.person),
-              label: Text("Profile"),
+              icon: const Icon(Icons.person),
+              label: Text(AppLocalizations.of(context)!.profile),
             ),
           ],
           selectedIndex: Provider.of<IndexProvider>(context).currentIndex,

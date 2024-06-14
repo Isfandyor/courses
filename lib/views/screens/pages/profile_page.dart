@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ProfilePage extends StatefulWidget {
   static String fullname = "";
@@ -85,9 +86,9 @@ class _ProfilePageState extends State<ProfilePage> {
                       ),
                     ),
                     const SizedBox(height: 40),
-                    const Text(
-                      "Your name",
-                      style: TextStyle(
+                    Text(
+                      AppLocalizations.of(context)!.yourName,
+                      style: const TextStyle(
                         fontSize: 15,
                         height: 2.5,
                         fontWeight: FontWeight.w600,
@@ -111,9 +112,9 @@ class _ProfilePageState extends State<ProfilePage> {
                       ),
                     ),
                     const SizedBox(height: 10),
-                    const Text(
-                      "Your lastname",
-                      style: TextStyle(
+                    Text(
+                      AppLocalizations.of(context)!.yourLastname,
+                      style: const TextStyle(
                         fontSize: 15,
                         height: 2.5,
                         fontWeight: FontWeight.w600,
@@ -137,9 +138,9 @@ class _ProfilePageState extends State<ProfilePage> {
                       ),
                     ),
                     const SizedBox(height: 10),
-                    const Text(
-                      "Phone number",
-                      style: TextStyle(
+                    Text(
+                      AppLocalizations.of(context)!.phone,
+                      style: const TextStyle(
                         fontSize: 15,
                         height: 2.5,
                         fontWeight: FontWeight.w600,
@@ -191,7 +192,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                   setState(() {});
                                 }
                               },
-                              child: const Text("Save")),
+                              child: Text(AppLocalizations.of(context)!.save)),
                         ),
                       ],
                     ),

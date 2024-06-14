@@ -138,6 +138,10 @@ http_parser
 2.12
 file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2/
 file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2/lib/
+intl
+3.0
+file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.19.0/
+file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.19.0/lib/
 io
 2.12
 file:///C:/Users/hello/AppData/Local/Pub/Cache/hosted/pub.dev/io-1.0.4/
@@ -430,6 +434,10 @@ flutter
 3.3
 file:///C:/Users/hello/flutter/packages/flutter/
 file:///C:/Users/hello/flutter/packages/flutter/lib/
+flutter_localizations
+3.2
+file:///C:/Users/hello/flutter/packages/flutter_localizations/
+file:///C:/Users/hello/flutter/packages/flutter_localizations/lib/
 flutter_test
 3.3
 file:///C:/Users/hello/flutter/packages/flutter_test/

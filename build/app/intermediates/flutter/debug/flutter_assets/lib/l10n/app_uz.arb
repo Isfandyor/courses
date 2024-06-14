@@ -1,0 +1,21 @@
+{
+    "courses": "Kurslar",
+    "home": "Bosh sahifa",
+    "favorites": "Sevimlilar",
+    "cart": "Savat",
+    "notes": "Eslatmalar",
+    "profile": "Profil",
+    "search": "Qidiring",
+    "address": "Manzil",
+    "total": "Jami",
+    "yourName": "Sizning ismingiz",
+    "yourLastname": "Sizning familiyangiz",
+    "phone": "Telefon raqami",
+    "save": "Saqlash",
+    "settings": "Sozlamalar",
+    "logout": "Chiqish",
+    "darkmode": "Tungi rejim",
+    "completed": "Operatsiya bajarildi",
+    "notfound": "Hech narsa to'pilmadi",
+    "language": "Tilni tanlash"
+}

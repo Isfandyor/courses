@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practice_home/controllers/courses_controller.dart';
 import 'package:practice_home/models/course.dart';
-import 'package:provider/provider.dart';
 
 class GridViewCourses extends StatelessWidget {
   Course course;

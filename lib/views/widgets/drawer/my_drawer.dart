@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:practice_home/views/screens/pages/profile_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
@@ -42,18 +43,18 @@ class MyDrawer extends StatelessWidget {
               ],
             ),
             const Gap(25),
-            ListTile(
-              onTap: () {
-                Navigator.pushNamed(context, 'edit_course');
-              },
-              title: const Text("Edit courses"),
-              leading: const Icon(Icons.edit_outlined),
-            ),
+            // ListTile(
+            //   onTap: () {
+            //     Navigator.pushNamed(context, 'edit_course');
+            //   },
+            //   title: const Text("Edit courses"),
+            //   leading: const Icon(Icons.edit_outlined),
+            // ),
             ListTile(
               onTap: () {
                 Navigator.pushNamed(context, 'settings');
               },
-              title: const Text("Settings"),
+              title: Text(AppLocalizations.of(context)!.settings),
               leading: const Icon(Icons.settings),
             ),
             ListTile(
@@ -61,7 +62,7 @@ class MyDrawer extends StatelessWidget {
                 Navigator.pushNamed(context, 'login');
               },
               title: Text(
-                "logout",
+                AppLocalizations.of(context)!.logout,
                 style: TextStyle(color: Colors.orange[500]),
               ),
               leading: Icon(

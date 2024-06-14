@@ -5,6 +5,7 @@ import 'package:practice_home/models/note.dart';
 import 'package:practice_home/views/screens/pages/home/notes/widgets/add_dialog.dart';
 import 'package:practice_home/views/screens/pages/home/notes/widgets/note_item.dart';
 import 'package:practice_home/views/screens/pages/home/notes/widgets/edit_dialog.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class NotesPage extends StatefulWidget {
   const NotesPage({super.key});
@@ -90,7 +91,7 @@ class _NotesPageState extends State<NotesPage> {
                     color: Colors.grey[700],
                     size: 25,
                   ),
-                  hintText: 'Search notes',
+                  hintText: AppLocalizations.of(context)!.search,
                   suffix: InkWell(
                     onTap: () {
                       textEditingController.clear();
@@ -114,9 +115,9 @@ class _NotesPageState extends State<NotesPage> {
         ),
         toolbarHeight: 70,
         // backgroundColor: Colors.grey[200],
-        title: const Text(
-          "Notes",
-          style: TextStyle(
+        title: Text(
+          AppLocalizations.of(context)!.notes,
+          style: const TextStyle(
             fontWeight: FontWeight.w400,
             fontSize: 25,
           ),
@@ -130,7 +131,6 @@ class _NotesPageState extends State<NotesPage> {
                 builder: (ctx) => const AddAlertDialog(),
               );
               if (data != null) {
-                print('Bu data: $data');
                 notesController.addNotes(
                   title: data['title'],
                 );

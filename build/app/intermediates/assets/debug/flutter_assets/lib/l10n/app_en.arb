@@ -1,0 +1,21 @@
+{
+    "courses": "Courses",
+    "home": "Home",
+    "favorites": "Favorites",
+    "cart": "Cart",
+    "notes": "Notes",
+    "profile": "Profile",
+    "search": "Search",
+    "address": "Address",
+    "total": "Total",
+    "yourName": "Your name",
+    "yourLastname": "Your lastname",
+    "phone": "Phone number",
+    "save": "Save",
+    "settings": "Settings",
+    "logout": "Logout",
+    "darkmode": "Dark mode",
+    "completed": "Operation completed",
+    "notfound": "Not found",
+    "language": "Select langugage"
+}
