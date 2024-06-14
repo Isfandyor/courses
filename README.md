@@ -28,7 +28,12 @@ https://github.com/Isfandyor/courses/assets/156054720/09c2aa03-a4e4-413b-91b9-4f
 
 # home work 56 and 57 added Search and update theme, watch the video for full details:
 
-
-
 https://github.com/Isfandyor/courses/assets/156054720/4fc845f2-1018-4a1f-bcd7-113c7f4c6691
+
+
+
+# home work 58 added languages three, russion, english, uzbek, watch video for full details:
+
+https://github.com/Isfandyor/courses/assets/156054720/1d240bcf-115e-4d09-9c1f-4d0ecbcbf31f
+
 
