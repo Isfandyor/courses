@@ -24,3 +24,11 @@ https://github.com/Isfandyor/courses/assets/156054720/09c2aa03-a4e4-413b-91b9-4f
 
 [2024-06-11 21-38-00.zip](https://github.com/user-attachments/files/15792347/2024-06-11.21-38-00.zip)
 
+
+
+# home work 56 and 57 added Search and update theme, watch the video for full details:
+
+
+
+https://github.com/Isfandyor/courses/assets/156054720/4fc845f2-1018-4a1f-bcd7-113c7f4c6691
+
